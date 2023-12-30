@@ -7,6 +7,8 @@ android {
     namespace = "com.yylykym.uiwidgettest"
     compileSdk = 33
 
+    viewBinding { enable = true }
+
     defaultConfig {
         applicationId = "com.yylykym.uiwidgettest"
         minSdk = 24

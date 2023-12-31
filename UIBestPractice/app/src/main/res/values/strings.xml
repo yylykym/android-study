@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UIBestPractice</string>
+    <string name="input_text_hint">Type something here</string>
+    <string name="send_btn_text">Send</string>
+</resources>

@@ -59,7 +59,7 @@ public class DownloadTask extends AsyncTask<String, Integer, Integer> {
                     .build();
             Response response = client.newCall(request).execute();
             is = response.body().byteStream();
-            saveFile = new RandomAccessFile(file, "cv");
+            saveFile = new RandomAccessFile(file, "rw");
             saveFile.seek(downloadLength);
             byte[] b = new byte[1024];
             int total = 0;
